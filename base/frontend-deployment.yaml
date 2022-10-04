@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: demo-frontend
-          image: 690757098488.dkr.ecr.ap-northeast-2.amazonaws.com/demo-frontend:latest
+          image: tnrgus/front-app:0.1
           imagePullPolicy: Always
           ports:
             - containerPort: 80
