@@ -3,7 +3,7 @@ kind: Kustomization
 images:
 - name: tnrgus/front-app
   newName: tnrgus/front-app
-  newTag: 0.2
+  newTag: 342aa
 resources:
 - ../../base
 patchesStrategicMerge:
